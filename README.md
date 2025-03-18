@@ -114,6 +114,8 @@ pip install --upgrade jupyterlab
 
 [데이터셋 & 모델](https://drive.google.com/drive/folders/1B2MWhhEjf1HChP85n9mp8Bp-UvqdvLLA)
 
+## Docker 구동 및 이미지 만들기
+
 **이미지 빌드**
 ```
 docker build -t rcmd_2503 .
