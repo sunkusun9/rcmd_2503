@@ -1,0 +1,12 @@
+jupyterlab
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+lightgbm
+kiwipiepy
+tensorflow[and-cuda]
+tqdm
+gdown
