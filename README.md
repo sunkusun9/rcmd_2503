@@ -113,3 +113,6 @@ pip install --upgrade jupyterlab
 ```
 
 [데이터셋 & 모델](https://drive.google.com/drive/folders/1B2MWhhEjf1HChP85n9mp8Bp-UvqdvLLA)
+
+
+docker run --runtime nvidia --rm -p 8888:8888 -v D:\work:/work -v .\.kaggle:/root/.kaggle -it gcr.io/kaggle-gpu-images/python /bin/bash
