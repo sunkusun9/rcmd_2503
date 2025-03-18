@@ -114,5 +114,21 @@ pip install --upgrade jupyterlab
 
 [데이터셋 & 모델](https://drive.google.com/drive/folders/1B2MWhhEjf1HChP85n9mp8Bp-UvqdvLLA)
 
+**이미지 빌드**
+```
+docker build -t rcmd_2503 .
+```
+**이미지 저장**
+```
+docker save -o rcmd_2503.tar rcmd_2503
+```
 
-docker run --runtime nvidia --rm -p 8888:8888 -v D:\work:/work -v .\.kaggle:/root/.kaggle -it gcr.io/kaggle-gpu-images/python /bin/bash
+**이미지 불러오기**
+```
+docker load -i rcmd_2503.tar
+```
+
+**이미지 실행**
+```
+docker run --gpus all --rm -p 8888:8888 rcmd_2503
+```
