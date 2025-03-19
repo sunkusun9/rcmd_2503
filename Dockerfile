@@ -35,7 +35,9 @@ COPY requirements.txt /app
 # 작업 디렉토리 설정
 WORKDIR /app
 RUN pip install -r requirements.txt
-
+RUN rm requirements.txt
+RUN mkdir dataset
+COPY dataset/* /dataset
 
 # JupyterLab 포트 8888 열기
 EXPOSE 8888
