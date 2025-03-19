@@ -1,5 +1,9 @@
 # 실전 추천시스템 알고리즘 이해와 구현
 
+## 강사
+
+멀티캠퍼스 강선구(sunku0316.kang@multicampus.com, sun9sun9@gmail.com)
+
 ## 기본 환경 구성
 
 Windows 10 / WSL Ubuntu(24.04) / Python 3.12.9
